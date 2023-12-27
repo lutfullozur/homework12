@@ -1,0 +1,58 @@
+
+fieldset{
+    background-color: rgb(157, 212, 76);
+    margin-top: 15px;
+    margin-left: 20px;
+}
+fieldset:hover{
+    background-color: gray;
+}
+input{
+    height: 20px;
+}
+.left{
+    background-color: rgb(235, 235, 235);
+    position: sticky;
+    top:0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 100px;
+}
+.photo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    width: 110px;
+    
+}
+.img1:hover{
+    opacity: 0.7;
+}
+button{
+    background-color: rgb(157, 243, 28);
+
+    margin-left: 20px;
+    height: 25px;
+    text-align: center;
+    width: 120px;
+}
+button:hover{
+    background-color: gray;
+    transition: 0.6s;
+}
+.s{
+    background-color: rgb(157, 243, 28);
+    margin-left: 20px;
+    height: 25px;
+    text-align: center;
+}
+.s:hover{
+    background-color: gray;
+    transition: 0.6s;
+}
